@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: stage1.mybluemix.net
+  name: saz-node-cloudant
+  host: saz-node-cloudant
+  disk_quota: 1024M
+  services:
+  - saz-node-cloudant-cloudantNoSQLDB
